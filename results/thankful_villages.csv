@@ -1,56 +1,56 @@
-village,title,county,nation,doubly,lat,lon,parish,parish_code,district,same_parish,pop2011,served
-Stoke Hammond,Stoke Hammond,Buckinghamshire,England,False,51.9568,-0.719,Stoke Hammond,E04001533,Buckinghamshire,True,875.0,
-Toft,"Toft, Cambridgeshire",Cambridgeshire,England,False,52.1866,-0.0131,Toft,E04001847,South Cambridgeshire,True,503.0,
-Herodsfoot,Herodsfoot,Cornwall,England,True,50.416,-4.514,St. Pinnock,E04011578,Cornwall,False,,
-Ousby,Ousby,Cumberland,England,True,54.705,-2.582,Ousby,E04012961,Westmorland and Furness,True,,
-Bradbourne,Bradbourne,Derbyshire,England,True,53.071,-1.688,Bradbourne,E04002729,Derbyshire Dales,True,117.0,
-Langton Herring,Langton Herring,Dorset,England,True,50.64111111,-2.5475,Langton Herring,E04003551,Dorset,True,240.0,
-Hunstanworth,Hunstanworth,Durham,England,False,54.83333333,-2.06666667,Hunstanworth,E04010649,County Durham,True,116.0,
-Strethall,Strethall,Essex,England,False,52.0324,0.1617,Strethall,E04004162,Uttlesford,True,,
-Coln Rogers,Coln Rogers,Gloucestershire,England,False,51.7841,-1.87673,Coln St. Dennis,E04004212,Cotswold,False,,
-Little Sodbury,Little Sodbury,Gloucestershire,England,False,51.54611111,-2.35138889,Horton,E04013342,South Gloucestershire,False,,
-Upper Slaughter,Upper Slaughter,Gloucestershire,England,True,51.906,-1.777,Upper Slaughter,E04004281,Cotswold,True,177.0,25.0
-Knill,Knill,Herefordshire,England,False,52.238,-3.039,Knill,E04000794,"Herefordshire, County of",True,,
-Middleton-on-the-Hill,Middleton-on-the-Hill,Herefordshire,England,True,52.277,-2.673,Middleton on the Hill,E04000830,"Herefordshire, County of",True,228.0,
-Puttenham,"Puttenham, Hertfordshire",Hertfordshire,England,False,51.82298,-0.71298,Tring Rural,E04004710,Dacorum,False,,
-Knowlton,"Knowlton, Kent",Kent,England,False,51.235,1.275,Goodnestone,E04004907,Dover,False,,
-Arkholme,Arkholme,Lancashire,England,True,54.144,-2.642,Arkholme-with-Cawood,E04005178,Lancaster,True,333.0,
-Nether Kellet,Nether Kellet,Lancashire,England,True,54.107,-2.759,Nether Kellet,E04005196,Lancaster,True,663.0,21.0
-Saxby,"Saxby, Leicestershire",Leicestershire,England,False,52.7727,-0.8099,Freeby,E04005525,Melton,False,,
-East Norton,East Norton,Leicestershire,England,False,52.5959,-0.8427,East Norton,E04005421,Harborough,True,,
-Stretton en le Field,Stretton en le Field,Leicestershire,England,False,52.704,-1.55,Stretton en le Field,E04005565,North West Leicestershire,True,,11.0
-Bigby,"Bigby, Lincolnshire",Lincolnshire,England,False,53.55208,-0.402229,Bigby,E04005960,West Lindsey,True,347.0,
-Flixborough,Flixborough,Lincolnshire,England,True,53.6243,-0.68335,Flixborough,E04000556,North Lincolnshire,True,1664.0,
-High Toynton,High Toynton,Lincolnshire,England,True,53.21076,-0.07873,High Toynton,E04005662,East Lindsey,True,,
-Minting,Minting,Lincolnshire,England,False,53.24504,-0.22007,Minting,E04005697,East Lindsey,True,286.0,
-Allington,"Allington, Lincolnshire",Lincolnshire,England,True,52.952427,-0.722981,Allington,E04005873,South Kesteven,True,897.0,
-East Carlton,East Carlton,Northamptonshire,England,False,52.4972,-0.7862,East Carlton,E04006626,North Northamptonshire,True,259.0,
-Woodend,"Woodend, Northamptonshire",Northamptonshire,England,False,52.1368,-1.1017,Woodend,E04006871,West Northamptonshire,True,322.0,
-Meldon,"Meldon, Northumberland",Northumberland,England,False,55.1456,-1.8054,Meldon,E04010829,Northumberland,True,248.0,
-Cromwell,"Cromwell, Nottinghamshire",Nottinghamshire,England,False,53.14,-0.81,Cromwell,E04007894,Newark and Sherwood,True,232.0,
-Maplebeck,Maplebeck,Nottinghamshire,England,False,53.14,-0.94,Maplebeck,E04007926,Newark and Sherwood,True,200.0,
-Wigsley,Wigsley,Nottinghamshire,England,False,53.22,-0.71,Wigsley,E04007956,Newark and Sherwood,True,178.0,
-Wysall,Wysall,Nottinghamshire,England,False,52.84,-1.1,Wysall,E04008017,Rushcliffe,True,431.0,
-Teigh,Teigh,Rutland,England,False,52.737,-0.663,Market Overton,E04000656,Rutland,False,,
-Harley,"Harley, Shropshire",Shropshire,England,False,52.61,-2.598,Harley,E04011280,Shropshire,True,163.0,20.0
-Aisholt,Aisholt,Somerset,England,False,51.125,-3.1075,Spaxton,E04008645,Somerset,False,,
-Chantry,"Chantry, Somerset",Somerset,England,False,51.227,-2.378,Whatley,E04008599,Somerset,False,,
-Chelwood,Chelwood,Somerset,England,False,51.3549,-2.5249,Chelwood,E04000956,Bath and North East Somerset,True,148.0,
-Holywell Lake,Holywell Lake,Somerset,England,False,50.9818,-3.2861,Wellington Without,E04008820,Somerset,False,,
-Rodney Stoke,Rodney Stoke,Somerset,England,False,51.2476,-2.7357,Rodney Stoke,E04008581,Somerset,True,1326.0,
-Stocklinch,Stocklinch,Somerset,England,True,50.9536,-2.8769,Stocklinch,E04008757,Somerset,True,154.0,
-Tellisford,Tellisford,Somerset,England,False,51.3,-2.283,Tellisford,E04008590,Somerset,True,182.0,
-Woolley,"Woolley, Somerset",Somerset,England,True,51.405,-2.357,Charlcombe,E04000955,Bath and North East Somerset,False,,
-Butterton,Butterton,Staffordshire,England,True,53.1073,-1.8924,Butterton,E04009029,Staffordshire Moorlands,True,248.0,
-Culpho,Culpho,Suffolk,England,False,52.096,1.225,Culpho,E04009394,East Suffolk,True,,
-Wordwell,Wordwell,Suffolk,England,False,52.317,0.683,Wordwell,E04009363,West Suffolk,True,,
-South Elmham St Michael,"St Michael, South Elmham",Suffolk,England,True,52.404,1.438,"St. Michael, South Elmham",E04009521,East Suffolk,False,,
-East Wittering,East Wittering,Sussex,England,False,50.76942,-0.87377,East Wittering,E04009899,Chichester,True,4658.0,
-Catwick,Catwick,Yorkshire,England,True,53.89305556,-0.28111111,Catwick,E04000374,East Riding of Yorkshire,True,240.0,
-Cundall,"Cundall, North Yorkshire",Yorkshire,England,False,54.14777778,-1.35277778,Cundall with Leckby,E04007329,North Yorkshire,True,128.0,
-Helperthorpe,Helperthorpe,Yorkshire,England,False,54.11972222,-0.54333333,Luttons,E04007603,North Yorkshire,False,,
-Norton-le-Clay,Norton-le-Clay,Yorkshire,England,False,54.13418,-1.38602,Norton-le-Clay,E04007402,North Yorkshire,True,497.0,
-Scruton,Scruton,Yorkshire,England,False,54.32583333,-1.54138889,Scruton,E04007251,North Yorkshire,True,424.0,
-Llanfihangel y Creuddyn,Llanfihangel y Creuddyn,Ceredigion,Wales,True,52.369939,-3.961772,Trawsgoed,W04000399,Ceredigion,False,,
-Colwinston,Colwinston,Glamorgan,Wales,False,51.46853,-3.52599,Colwinston,W04000651,Vale of Glamorgan,True,447.0,23.0
-Herbrandston,Herbrandston,Pembrokeshire,Wales,True,51.726443,-5.085726,Herbrandston,W04000431,Pembrokeshire,True,397.0,
+village,title,county,nation,doubly,lat,lon,parish,parish_code,district,same_parish,pop2011,served,nodata2011
+Stoke Hammond,Stoke Hammond,Buckinghamshire,England,False,51.9568,-0.719,Stoke Hammond,E04001533,Buckinghamshire,True,875.0,,False
+Toft,"Toft, Cambridgeshire",Cambridgeshire,England,False,52.1866,-0.0131,Toft,E04001847,South Cambridgeshire,True,503.0,,False
+Herodsfoot,Herodsfoot,Cornwall,England,True,50.416,-4.514,St. Pinnock,E04011578,Cornwall,False,,,False
+Ousby,Ousby,Cumberland,England,True,54.705,-2.582,Ousby,E04012961,Westmorland and Furness,True,447.0,,False
+Bradbourne,Bradbourne,Derbyshire,England,True,53.071,-1.688,Bradbourne,E04002729,Derbyshire Dales,True,117.0,,False
+Langton Herring,Langton Herring,Dorset,England,True,50.64111111,-2.5475,Langton Herring,E04003551,Dorset,True,240.0,,False
+Hunstanworth,Hunstanworth,Durham,England,False,54.83333333,-2.06666667,Hunstanworth,E04010649,County Durham,True,116.0,,False
+Strethall,Strethall,Essex,England,False,52.0324,0.1617,Strethall,E04004162,Uttlesford,True,,,True
+Coln Rogers,Coln Rogers,Gloucestershire,England,False,51.7841,-1.87673,Coln St. Dennis,E04004212,Cotswold,False,,,False
+Little Sodbury,Little Sodbury,Gloucestershire,England,False,51.54611111,-2.35138889,Horton,E04013342,South Gloucestershire,False,,,False
+Upper Slaughter,Upper Slaughter,Gloucestershire,England,True,51.906,-1.777,Upper Slaughter,E04004281,Cotswold,True,177.0,25.0,False
+Knill,Knill,Herefordshire,England,False,52.238,-3.039,Knill,E04000794,"Herefordshire, County of",True,,,True
+Middleton-on-the-Hill,Middleton-on-the-Hill,Herefordshire,England,True,52.277,-2.673,Middleton on the Hill,E04000830,"Herefordshire, County of",True,228.0,,False
+Puttenham,"Puttenham, Hertfordshire",Hertfordshire,England,False,51.82298,-0.71298,Tring Rural,E04004710,Dacorum,False,,,False
+Knowlton,"Knowlton, Kent",Kent,England,False,51.235,1.275,Goodnestone,E04004907,Dover,False,,,False
+Arkholme,Arkholme,Lancashire,England,True,54.144,-2.642,Arkholme-with-Cawood,E04005178,Lancaster,True,333.0,,False
+Nether Kellet,Nether Kellet,Lancashire,England,True,54.107,-2.759,Nether Kellet,E04005196,Lancaster,True,663.0,21.0,False
+Saxby,"Saxby, Leicestershire",Leicestershire,England,False,52.7727,-0.8099,Freeby,E04005525,Melton,False,,,False
+East Norton,East Norton,Leicestershire,England,False,52.5959,-0.8427,East Norton,E04005421,Harborough,True,,,True
+Stretton en le Field,Stretton en le Field,Leicestershire,England,False,52.704,-1.55,Stretton en le Field,E04005565,North West Leicestershire,True,,11.0,True
+Bigby,"Bigby, Lincolnshire",Lincolnshire,England,False,53.55208,-0.402229,Bigby,E04005960,West Lindsey,True,347.0,,False
+Flixborough,Flixborough,Lincolnshire,England,True,53.6243,-0.68335,Flixborough,E04000556,North Lincolnshire,True,1664.0,,False
+High Toynton,High Toynton,Lincolnshire,England,True,53.21076,-0.07873,High Toynton,E04005662,East Lindsey,True,,,True
+Minting,Minting,Lincolnshire,England,False,53.24504,-0.22007,Minting,E04005697,East Lindsey,True,286.0,,False
+Allington,"Allington, Lincolnshire",Lincolnshire,England,True,52.952427,-0.722981,Allington,E04005873,South Kesteven,True,897.0,,False
+East Carlton,East Carlton,Northamptonshire,England,False,52.4972,-0.7862,East Carlton,E04006626,North Northamptonshire,True,259.0,,False
+Woodend,"Woodend, Northamptonshire",Northamptonshire,England,False,52.1368,-1.1017,Woodend,E04006871,West Northamptonshire,True,322.0,,False
+Meldon,"Meldon, Northumberland",Northumberland,England,False,55.1456,-1.8054,Meldon,E04010829,Northumberland,True,248.0,,False
+Cromwell,"Cromwell, Nottinghamshire",Nottinghamshire,England,False,53.14,-0.81,Cromwell,E04007894,Newark and Sherwood,True,232.0,,False
+Maplebeck,Maplebeck,Nottinghamshire,England,False,53.14,-0.94,Maplebeck,E04007926,Newark and Sherwood,True,200.0,,False
+Wigsley,Wigsley,Nottinghamshire,England,False,53.22,-0.71,Wigsley,E04007956,Newark and Sherwood,True,178.0,,False
+Wysall,Wysall,Nottinghamshire,England,False,52.84,-1.1,Wysall,E04008017,Rushcliffe,True,431.0,,False
+Teigh,Teigh,Rutland,England,False,52.737,-0.663,Market Overton,E04000656,Rutland,False,,,False
+Harley,"Harley, Shropshire",Shropshire,England,False,52.61,-2.598,Harley,E04011280,Shropshire,True,163.0,20.0,False
+Aisholt,Aisholt,Somerset,England,False,51.125,-3.1075,Spaxton,E04008645,Somerset,False,,,False
+Chantry,"Chantry, Somerset",Somerset,England,False,51.227,-2.378,Whatley,E04008599,Somerset,False,,,False
+Chelwood,Chelwood,Somerset,England,False,51.3549,-2.5249,Chelwood,E04000956,Bath and North East Somerset,True,148.0,,False
+Holywell Lake,Holywell Lake,Somerset,England,False,50.9818,-3.2861,Wellington Without,E04008820,Somerset,False,,,False
+Rodney Stoke,Rodney Stoke,Somerset,England,False,51.2476,-2.7357,Rodney Stoke,E04008581,Somerset,True,1326.0,,False
+Stocklinch,Stocklinch,Somerset,England,True,50.9536,-2.8769,Stocklinch,E04008757,Somerset,True,154.0,,False
+Tellisford,Tellisford,Somerset,England,False,51.3,-2.283,Tellisford,E04008590,Somerset,True,182.0,,False
+Woolley,"Woolley, Somerset",Somerset,England,True,51.405,-2.357,Charlcombe,E04000955,Bath and North East Somerset,False,,,False
+Butterton,Butterton,Staffordshire,England,True,53.1073,-1.8924,Butterton,E04009029,Staffordshire Moorlands,True,248.0,,False
+Culpho,Culpho,Suffolk,England,False,52.096,1.225,Culpho,E04009394,East Suffolk,True,,,True
+Wordwell,Wordwell,Suffolk,England,False,52.317,0.683,Wordwell,E04009363,West Suffolk,True,,,True
+South Elmham St Michael,"St Michael, South Elmham",Suffolk,England,True,52.404,1.438,"St. Michael, South Elmham",E04009521,East Suffolk,True,,,True
+East Wittering,East Wittering,Sussex,England,False,50.76942,-0.87377,East Wittering,E04009899,Chichester,True,4658.0,,False
+Catwick,Catwick,Yorkshire,England,True,53.89305556,-0.28111111,Catwick,E04000374,East Riding of Yorkshire,True,240.0,,False
+Cundall,"Cundall, North Yorkshire",Yorkshire,England,False,54.14777778,-1.35277778,Cundall with Leckby,E04007329,North Yorkshire,True,128.0,,False
+Helperthorpe,Helperthorpe,Yorkshire,England,False,54.11972222,-0.54333333,Luttons,E04007603,North Yorkshire,False,,,False
+Norton-le-Clay,Norton-le-Clay,Yorkshire,England,False,54.13418,-1.38602,Norton-le-Clay,E04007402,North Yorkshire,True,497.0,,False
+Scruton,Scruton,Yorkshire,England,False,54.32583333,-1.54138889,Scruton,E04007251,North Yorkshire,True,424.0,,False
+Llanfihangel y Creuddyn,Llanfihangel y Creuddyn,Ceredigion,Wales,True,52.369939,-3.961772,Trawsgoed,W04000399,Ceredigion,False,,,False
+Colwinston,Colwinston,Glamorgan,Wales,False,51.46853,-3.52599,Colwinston,W04000651,Vale of Glamorgan,True,447.0,23.0,False
+Herbrandston,Herbrandston,Pembrokeshire,Wales,True,51.726443,-5.085726,Herbrandston,W04000431,Pembrokeshire,True,397.0,,False
