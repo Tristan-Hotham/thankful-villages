@@ -1,0 +1,1432 @@
+[
+{
+"title": "Stoke Hammond",
+"name": "Stoke Hammond",
+"county": "Buckinghamshire",
+"nation": "England",
+"doubly": false,
+"lat": 51.9568,
+"lon": -0.719,
+"parishes": [
+[
+"Stoke Hammond",
+"E04001533",
+"Buckinghamshire"
+],
+[
+"Stoke Hammond",
+"E04001533",
+"Buckinghamshire"
+],
+[
+"Stoke Hammond",
+"E04001533",
+"Buckinghamshire"
+]
+]
+},
+{
+"title": "Toft, Cambridgeshire",
+"name": "Toft",
+"county": "Cambridgeshire",
+"nation": "England",
+"doubly": false,
+"lat": 52.1866,
+"lon": -0.0131,
+"parishes": [
+[
+"Toft",
+"E04001847",
+"South Cambridgeshire"
+],
+[
+"Toft",
+"E04001847",
+"South Cambridgeshire"
+],
+[
+"Toft",
+"E04001847",
+"South Cambridgeshire"
+]
+]
+},
+{
+"title": "Herodsfoot",
+"name": "Herodsfoot",
+"county": "Cornwall",
+"nation": "England",
+"doubly": true,
+"lat": 50.416,
+"lon": -4.514,
+"parishes": [
+[
+"St. Pinnock",
+"E04011578",
+"Cornwall"
+],
+[
+"Duloe",
+"E04011430",
+"Cornwall"
+],
+[
+"Duloe",
+"E04011430",
+"Cornwall"
+]
+]
+},
+{
+"title": "Ousby",
+"name": "Ousby",
+"county": "Cumberland",
+"nation": "England",
+"doubly": true,
+"lat": 54.705,
+"lon": -2.582,
+"parishes": [
+[
+"Ousby",
+"E04012961",
+"Westmorland and Furness"
+],
+[
+"Ousby",
+"E04012961",
+"Westmorland and Furness"
+],
+[
+"Ousby",
+"E04012961",
+"Westmorland and Furness"
+]
+]
+},
+{
+"title": "Bradbourne",
+"name": "Bradbourne",
+"county": "Derbyshire",
+"nation": "England",
+"doubly": true,
+"lat": 53.071,
+"lon": -1.688,
+"parishes": [
+[
+"Bradbourne",
+"E04002729",
+"Derbyshire Dales"
+],
+[
+"Bradbourne",
+"E04002729",
+"Derbyshire Dales"
+],
+[
+"Bradbourne",
+"E04002729",
+"Derbyshire Dales"
+]
+]
+},
+{
+"title": "Langton Herring",
+"name": "Langton Herring",
+"county": "Dorset",
+"nation": "England",
+"doubly": true,
+"lat": 50.64111111,
+"lon": -2.5475,
+"parishes": [
+[
+"Langton Herring",
+"E04003551",
+"Dorset"
+],
+[
+"Langton Herring",
+"E04003551",
+"Dorset"
+],
+[
+"Langton Herring",
+"E04003551",
+"Dorset"
+]
+]
+},
+{
+"title": "Hunstanworth",
+"name": "Hunstanworth",
+"county": "Durham",
+"nation": "England",
+"doubly": false,
+"lat": 54.83333333,
+"lon": -2.06666667,
+"parishes": [
+[
+"Hunstanworth",
+"E04010649",
+"County Durham"
+],
+[
+"Hunstanworth",
+"E04010649",
+"County Durham"
+],
+[
+"Hunstanworth",
+"E04010649",
+"County Durham"
+]
+]
+},
+{
+"title": "Strethall",
+"name": "Strethall",
+"county": "Essex",
+"nation": "England",
+"doubly": false,
+"lat": 52.0324,
+"lon": 0.1617,
+"parishes": [
+[
+"Strethall",
+"E04004162",
+"Uttlesford"
+],
+[
+"Littlebury",
+"E04004153",
+"Uttlesford"
+],
+[
+"Littlebury",
+"E04004153",
+"Uttlesford"
+]
+]
+},
+{
+"title": "Coln Rogers",
+"name": "Coln Rogers",
+"county": "Gloucestershire",
+"nation": "England",
+"doubly": false,
+"lat": 51.7841,
+"lon": -1.87673,
+"parishes": [
+[
+"Coln St. Dennis",
+"E04004212",
+"Cotswold"
+],
+[
+"Coln St. Dennis",
+"E04004212",
+"Cotswold"
+],
+[
+"Coln St. Dennis",
+"E04004212",
+"Cotswold"
+]
+]
+},
+{
+"title": "Little Sodbury",
+"name": "Little Sodbury",
+"county": "Gloucestershire",
+"nation": "England",
+"doubly": false,
+"lat": 51.54611111,
+"lon": -2.35138889,
+"parishes": [
+[
+"Horton",
+"E04013342",
+"South Gloucestershire"
+],
+[
+"Horton",
+"E04013342",
+"South Gloucestershire"
+],
+[
+"Horton",
+"E04013342",
+"South Gloucestershire"
+]
+]
+},
+{
+"title": "Upper Slaughter",
+"name": "Upper Slaughter",
+"county": "Gloucestershire",
+"nation": "England",
+"doubly": true,
+"lat": 51.906,
+"lon": -1.777,
+"parishes": [
+[
+"Upper Slaughter",
+"E04004281",
+"Cotswold"
+],
+[
+"Upper Slaughter",
+"E04004281",
+"Cotswold"
+],
+[
+"Upper Slaughter",
+"E04004281",
+"Cotswold"
+]
+]
+},
+{
+"title": "Knill",
+"name": "Knill",
+"county": "Herefordshire",
+"nation": "England",
+"doubly": false,
+"lat": 52.238,
+"lon": -3.039,
+"parishes": [
+[
+"Knill",
+"E04000794",
+"Herefordshire, County of"
+],
+[
+"Lower Harpton",
+"E04000818",
+"Herefordshire, County of"
+],
+[
+"Old Radnor",
+"W04000336",
+"Powys"
+]
+]
+},
+{
+"title": "Middleton-on-the-Hill",
+"name": "Middleton-on-the-Hill",
+"county": "Herefordshire",
+"nation": "England",
+"doubly": true,
+"lat": 52.277,
+"lon": -2.673,
+"parishes": [
+[
+"Middleton on the Hill",
+"E04000830",
+"Herefordshire, County of"
+],
+[
+"Middleton on the Hill",
+"E04000830",
+"Herefordshire, County of"
+],
+[
+"Middleton on the Hill",
+"E04000830",
+"Herefordshire, County of"
+]
+]
+},
+{
+"title": "Puttenham, Hertfordshire",
+"name": "Puttenham",
+"county": "Hertfordshire",
+"nation": "England",
+"doubly": false,
+"lat": 51.82298,
+"lon": -0.71298,
+"parishes": [
+[
+"Tring Rural",
+"E04004710",
+"Dacorum"
+],
+[
+"Tring Rural",
+"E04004710",
+"Dacorum"
+],
+[
+"Tring Rural",
+"E04004710",
+"Dacorum"
+]
+]
+},
+{
+"title": "Knowlton, Kent",
+"name": "Knowlton",
+"county": "Kent",
+"nation": "England",
+"doubly": false,
+"lat": 51.235,
+"lon": 1.275,
+"parishes": [
+[
+"Goodnestone",
+"E04004907",
+"Dover"
+],
+[
+"Eastry",
+"E04004905",
+"Dover"
+],
+[
+"Goodnestone",
+"E04004907",
+"Dover"
+]
+]
+},
+{
+"title": "Arkholme",
+"name": "Arkholme",
+"county": "Lancashire",
+"nation": "England",
+"doubly": true,
+"lat": 54.144,
+"lon": -2.642,
+"parishes": [
+[
+"Arkholme-with-Cawood",
+"E04005178",
+"Lancaster"
+],
+[
+"Arkholme-with-Cawood",
+"E04005178",
+"Lancaster"
+],
+[
+"Arkholme-with-Cawood",
+"E04005178",
+"Lancaster"
+]
+]
+},
+{
+"title": "Nether Kellet",
+"name": "Nether Kellet",
+"county": "Lancashire",
+"nation": "England",
+"doubly": true,
+"lat": 54.107,
+"lon": -2.759,
+"parishes": [
+[
+"Nether Kellet",
+"E04005196",
+"Lancaster"
+],
+[
+"Nether Kellet",
+"E04005196",
+"Lancaster"
+],
+[
+"Nether Kellet",
+"E04005196",
+"Lancaster"
+]
+]
+},
+{
+"title": "Saxby, Leicestershire",
+"name": "Saxby",
+"county": "Leicestershire",
+"nation": "England",
+"doubly": false,
+"lat": 52.7727,
+"lon": -0.8099,
+"parishes": [
+[
+"Freeby",
+"E04005525",
+"Melton"
+],
+[
+"Freeby",
+"E04005525",
+"Melton"
+],
+[
+"Freeby",
+"E04005525",
+"Melton"
+]
+]
+},
+{
+"title": "East Norton",
+"name": "East Norton",
+"county": "Leicestershire",
+"nation": "England",
+"doubly": false,
+"lat": 52.5959,
+"lon": -0.8427,
+"parishes": [
+[
+"East Norton",
+"E04005421",
+"Harborough"
+],
+[
+"East Norton",
+"E04005421",
+"Harborough"
+],
+[
+"East Norton",
+"E04005421",
+"Harborough"
+]
+]
+},
+{
+"title": "Stretton en le Field",
+"name": "Stretton en le Field",
+"county": "Leicestershire",
+"nation": "England",
+"doubly": false,
+"lat": 52.704,
+"lon": -1.55,
+"parishes": [
+[
+"Stretton en le Field",
+"E04005565",
+"North West Leicestershire"
+],
+[
+"Stretton en le Field",
+"E04005565",
+"North West Leicestershire"
+],
+[
+"Stretton en le Field",
+"E04005565",
+"North West Leicestershire"
+]
+]
+},
+{
+"title": "Bigby, Lincolnshire",
+"name": "Bigby",
+"county": "Lincolnshire",
+"nation": "England",
+"doubly": false,
+"lat": 53.55208,
+"lon": -0.402229,
+"parishes": [
+[
+"Bigby",
+"E04005960",
+"West Lindsey"
+],
+[
+"Bigby",
+"E04005960",
+"West Lindsey"
+],
+[
+"Bigby",
+"E04005960",
+"West Lindsey"
+]
+]
+},
+{
+"title": "Flixborough",
+"name": "Flixborough",
+"county": "Lincolnshire",
+"nation": "England",
+"doubly": true,
+"lat": 53.6243,
+"lon": -0.68335,
+"parishes": [
+[
+"Flixborough",
+"E04000556",
+"North Lincolnshire"
+],
+[
+"Flixborough",
+"E04000556",
+"North Lincolnshire"
+],
+[
+"Flixborough",
+"E04000556",
+"North Lincolnshire"
+]
+]
+},
+{
+"title": "High Toynton",
+"name": "High Toynton",
+"county": "Lincolnshire",
+"nation": "England",
+"doubly": true,
+"lat": 53.21076,
+"lon": -0.07873,
+"parishes": [
+[
+"High Toynton",
+"E04005662",
+"East Lindsey"
+],
+[
+"High Toynton",
+"E04005662",
+"East Lindsey"
+],
+[
+"High Toynton",
+"E04005662",
+"East Lindsey"
+]
+]
+},
+{
+"title": "Minting",
+"name": "Minting",
+"county": "Lincolnshire",
+"nation": "England",
+"doubly": false,
+"lat": 53.24504,
+"lon": -0.22007,
+"parishes": [
+[
+"Minting",
+"E04005697",
+"East Lindsey"
+],
+[
+"Minting",
+"E04005697",
+"East Lindsey"
+],
+[
+"Minting",
+"E04005697",
+"East Lindsey"
+]
+]
+},
+{
+"title": "Allington, Lincolnshire",
+"name": "Allington",
+"county": "Lincolnshire",
+"nation": "England",
+"doubly": true,
+"lat": 52.952427,
+"lon": -0.722981,
+"parishes": [
+[
+"Allington",
+"E04005873",
+"South Kesteven"
+],
+[
+"Allington",
+"E04005873",
+"South Kesteven"
+],
+[
+"Allington",
+"E04005873",
+"South Kesteven"
+]
+]
+},
+{
+"title": "East Carlton",
+"name": "East Carlton",
+"county": "Northamptonshire",
+"nation": "England",
+"doubly": false,
+"lat": 52.4972,
+"lon": -0.7862,
+"parishes": [
+[
+"East Carlton",
+"E04006626",
+"North Northamptonshire"
+],
+[
+"East Carlton",
+"E04006626",
+"North Northamptonshire"
+],
+[
+"East Carlton",
+"E04006626",
+"North Northamptonshire"
+]
+]
+},
+{
+"title": "Woodend, Northamptonshire",
+"name": "Woodend",
+"county": "Northamptonshire",
+"nation": "England",
+"doubly": false,
+"lat": 52.1368,
+"lon": -1.1017,
+"parishes": [
+[
+"Woodend",
+"E04006871",
+"West Northamptonshire"
+],
+[
+"Woodend",
+"E04006871",
+"West Northamptonshire"
+],
+[
+"Woodend",
+"E04006871",
+"West Northamptonshire"
+]
+]
+},
+{
+"title": "Meldon, Northumberland",
+"name": "Meldon",
+"county": "Northumberland",
+"nation": "England",
+"doubly": false,
+"lat": 55.1456,
+"lon": -1.8054,
+"parishes": [
+[
+"Meldon",
+"E04010829",
+"Northumberland"
+],
+[
+"Meldon",
+"E04010829",
+"Northumberland"
+],
+[
+"Meldon",
+"E04010829",
+"Northumberland"
+]
+]
+},
+{
+"title": "Cromwell, Nottinghamshire",
+"name": "Cromwell",
+"county": "Nottinghamshire",
+"nation": "England",
+"doubly": false,
+"lat": 53.14,
+"lon": -0.81,
+"parishes": [
+[
+"Cromwell",
+"E04007894",
+"Newark and Sherwood"
+],
+[
+"Cromwell",
+"E04007894",
+"Newark and Sherwood"
+],
+[
+"Cromwell",
+"E04007894",
+"Newark and Sherwood"
+]
+]
+},
+{
+"title": "Maplebeck",
+"name": "Maplebeck",
+"county": "Nottinghamshire",
+"nation": "England",
+"doubly": false,
+"lat": 53.14,
+"lon": -0.94,
+"parishes": [
+[
+"Maplebeck",
+"E04007926",
+"Newark and Sherwood"
+],
+[
+"Maplebeck",
+"E04007926",
+"Newark and Sherwood"
+],
+[
+"Maplebeck",
+"E04007926",
+"Newark and Sherwood"
+]
+]
+},
+{
+"title": "Wigsley",
+"name": "Wigsley",
+"county": "Nottinghamshire",
+"nation": "England",
+"doubly": false,
+"lat": 53.22,
+"lon": -0.71,
+"parishes": [
+[
+"Wigsley",
+"E04007956",
+"Newark and Sherwood"
+],
+[
+"Wigsley",
+"E04007956",
+"Newark and Sherwood"
+],
+[
+"Wigsley",
+"E04007956",
+"Newark and Sherwood"
+]
+]
+},
+{
+"title": "Wysall",
+"name": "Wysall",
+"county": "Nottinghamshire",
+"nation": "England",
+"doubly": false,
+"lat": 52.84,
+"lon": -1.1,
+"parishes": [
+[
+"Wysall",
+"E04008017",
+"Rushcliffe"
+],
+[
+"Wysall",
+"E04008017",
+"Rushcliffe"
+],
+[
+"Wysall",
+"E04008017",
+"Rushcliffe"
+]
+]
+},
+{
+"title": "Teigh",
+"name": "Teigh",
+"county": "Rutland",
+"nation": "England",
+"doubly": false,
+"lat": 52.737,
+"lon": -0.663,
+"parishes": [
+[
+"Market Overton",
+"E04000656",
+"Rutland"
+],
+[
+"Cottesmore",
+"E04012420",
+"Rutland"
+],
+[
+"Market Overton",
+"E04000656",
+"Rutland"
+]
+]
+},
+{
+"title": "Harley, Shropshire",
+"name": "Harley",
+"county": "Shropshire",
+"nation": "England",
+"doubly": false,
+"lat": 52.61,
+"lon": -2.598,
+"parishes": [
+[
+"Harley",
+"E04011280",
+"Shropshire"
+],
+[
+"Harley",
+"E04011280",
+"Shropshire"
+],
+[
+"Harley",
+"E04011280",
+"Shropshire"
+]
+]
+},
+{
+"title": "Aisholt",
+"name": "Aisholt",
+"county": "Somerset",
+"nation": "England",
+"doubly": false,
+"lat": 51.125,
+"lon": -3.1075,
+"parishes": [
+[
+"Spaxton",
+"E04008645",
+"Somerset"
+],
+[
+"Spaxton",
+"E04008645",
+"Somerset"
+],
+[
+"Spaxton",
+"E04008645",
+"Somerset"
+]
+]
+},
+{
+"title": "Chantry, Somerset",
+"name": "Chantry",
+"county": "Somerset",
+"nation": "England",
+"doubly": false,
+"lat": 51.227,
+"lon": -2.378,
+"parishes": [
+[
+"Whatley",
+"E04008599",
+"Somerset"
+],
+[
+"Whatley",
+"E04008599",
+"Somerset"
+],
+[
+"Whatley",
+"E04008599",
+"Somerset"
+]
+]
+},
+{
+"title": "Chelwood",
+"name": "Chelwood",
+"county": "Somerset",
+"nation": "England",
+"doubly": false,
+"lat": 51.3549,
+"lon": -2.5249,
+"parishes": [
+[
+"Chelwood",
+"E04000956",
+"Bath and North East Somerset"
+],
+[
+"Chelwood",
+"E04000956",
+"Bath and North East Somerset"
+],
+[
+"Chelwood",
+"E04000956",
+"Bath and North East Somerset"
+]
+]
+},
+{
+"title": "Holywell Lake",
+"name": "Holywell Lake",
+"county": "Somerset",
+"nation": "England",
+"doubly": false,
+"lat": 50.9818,
+"lon": -3.2861,
+"parishes": [
+[
+"Wellington Without",
+"E04008820",
+"Somerset"
+],
+[
+"Wellington Without",
+"E04008820",
+"Somerset"
+],
+[
+"Wellington Without",
+"E04008820",
+"Somerset"
+]
+]
+},
+{
+"title": "Rodney Stoke",
+"name": "Rodney Stoke",
+"county": "Somerset",
+"nation": "England",
+"doubly": false,
+"lat": 51.2476,
+"lon": -2.7357,
+"parishes": [
+[
+"Rodney Stoke",
+"E04008581",
+"Somerset"
+],
+[
+"Rodney Stoke",
+"E04008581",
+"Somerset"
+],
+[
+"Rodney Stoke",
+"E04008581",
+"Somerset"
+]
+]
+},
+{
+"title": "Stocklinch",
+"name": "Stocklinch",
+"county": "Somerset",
+"nation": "England",
+"doubly": true,
+"lat": 50.9536,
+"lon": -2.8769,
+"parishes": [
+[
+"Stocklinch",
+"E04008757",
+"Somerset"
+],
+[
+"Stocklinch",
+"E04008757",
+"Somerset"
+],
+[
+"Stocklinch",
+"E04008757",
+"Somerset"
+]
+]
+},
+{
+"title": "Tellisford",
+"name": "Tellisford",
+"county": "Somerset",
+"nation": "England",
+"doubly": false,
+"lat": 51.3,
+"lon": -2.283,
+"parishes": [
+[
+"Tellisford",
+"E04008590",
+"Somerset"
+],
+[
+"Southwick",
+"E04013470",
+"Wiltshire"
+],
+[
+"Tellisford",
+"E04008590",
+"Somerset"
+]
+]
+},
+{
+"title": "Woolley, Somerset",
+"name": "Woolley",
+"county": "Somerset",
+"nation": "England",
+"doubly": true,
+"lat": 51.405,
+"lon": -2.357,
+"parishes": [
+[
+"Charlcombe",
+"E04000955",
+"Bath and North East Somerset"
+],
+[
+"Charlcombe",
+"E04000955",
+"Bath and North East Somerset"
+],
+[
+"Charlcombe",
+"E04000955",
+"Bath and North East Somerset"
+]
+]
+},
+{
+"title": "Butterton",
+"name": "Butterton",
+"county": "Staffordshire",
+"nation": "England",
+"doubly": true,
+"lat": 53.1073,
+"lon": -1.8924,
+"parishes": [
+[
+"Butterton",
+"E04009029",
+"Staffordshire Moorlands"
+],
+[
+"Butterton",
+"E04009029",
+"Staffordshire Moorlands"
+],
+[
+"Butterton",
+"E04009029",
+"Staffordshire Moorlands"
+]
+]
+},
+{
+"title": "Culpho",
+"name": "Culpho",
+"county": "Suffolk",
+"nation": "England",
+"doubly": false,
+"lat": 52.096,
+"lon": 1.225,
+"parishes": [
+[
+"Culpho",
+"E04009394",
+"East Suffolk"
+],
+[
+"Culpho",
+"E04009394",
+"East Suffolk"
+],
+[
+"Culpho",
+"E04009394",
+"East Suffolk"
+]
+]
+},
+{
+"title": "Wordwell",
+"name": "Wordwell",
+"county": "Suffolk",
+"nation": "England",
+"doubly": false,
+"lat": 52.317,
+"lon": 0.683,
+"parishes": [
+[
+"Wordwell",
+"E04009363",
+"West Suffolk"
+],
+[
+"Wordwell",
+"E04009363",
+"West Suffolk"
+],
+[
+"Wordwell",
+"E04009363",
+"West Suffolk"
+]
+]
+},
+{
+"title": "St Michael, South Elmham",
+"name": "South Elmham St Michael",
+"county": "Suffolk",
+"nation": "England",
+"doubly": true,
+"lat": 52.404,
+"lon": 1.438,
+"parishes": [
+[
+"St. Michael, South Elmham",
+"E04009521",
+"East Suffolk"
+],
+[
+"St. Michael, South Elmham",
+"E04009521",
+"East Suffolk"
+],
+[
+"St. Michael, South Elmham",
+"E04009521",
+"East Suffolk"
+]
+]
+},
+{
+"title": "East Wittering",
+"name": "East Wittering",
+"county": "Sussex",
+"nation": "England",
+"doubly": false,
+"lat": 50.76942,
+"lon": -0.87377,
+"parishes": [
+[
+"East Wittering",
+"E04009899",
+"Chichester"
+],
+[
+"East Wittering",
+"E04009899",
+"Chichester"
+],
+[
+"East Wittering",
+"E04009899",
+"Chichester"
+]
+]
+},
+{
+"title": "Catwick",
+"name": "Catwick",
+"county": "Yorkshire",
+"nation": "England",
+"doubly": true,
+"lat": 53.89305556,
+"lon": -0.28111111,
+"parishes": [
+[
+"Catwick",
+"E04000374",
+"East Riding of Yorkshire"
+],
+[
+"Catwick",
+"E04000374",
+"East Riding of Yorkshire"
+],
+[
+"Catwick",
+"E04000374",
+"East Riding of Yorkshire"
+]
+]
+},
+{
+"title": "Cundall, North Yorkshire",
+"name": "Cundall",
+"county": "Yorkshire",
+"nation": "England",
+"doubly": false,
+"lat": 54.14777778,
+"lon": -1.35277778,
+"parishes": [
+[
+"Cundall with Leckby",
+"E04007329",
+"North Yorkshire"
+],
+[
+"Cundall with Leckby",
+"E04007329",
+"North Yorkshire"
+],
+[
+"Cundall with Leckby",
+"E04007329",
+"North Yorkshire"
+]
+]
+},
+{
+"title": "Helperthorpe",
+"name": "Helperthorpe",
+"county": "Yorkshire",
+"nation": "England",
+"doubly": false,
+"lat": 54.11972222,
+"lon": -0.54333333,
+"parishes": [
+[
+"Luttons",
+"E04007603",
+"North Yorkshire"
+],
+[
+"Luttons",
+"E04007603",
+"North Yorkshire"
+],
+[
+"Luttons",
+"E04007603",
+"North Yorkshire"
+]
+]
+},
+{
+"title": "Norton-le-Clay",
+"name": "Norton-le-Clay",
+"county": "Yorkshire",
+"nation": "England",
+"doubly": false,
+"lat": 54.13418,
+"lon": -1.38602,
+"parishes": [
+[
+"Norton-le-Clay",
+"E04007402",
+"North Yorkshire"
+],
+[
+"Norton-le-Clay",
+"E04007402",
+"North Yorkshire"
+],
+[
+"Norton-le-Clay",
+"E04007402",
+"North Yorkshire"
+]
+]
+},
+{
+"title": "Scruton",
+"name": "Scruton",
+"county": "Yorkshire",
+"nation": "England",
+"doubly": false,
+"lat": 54.32583333,
+"lon": -1.54138889,
+"parishes": [
+[
+"Scruton",
+"E04007251",
+"North Yorkshire"
+],
+[
+"Scruton",
+"E04007251",
+"North Yorkshire"
+],
+[
+"Scruton",
+"E04007251",
+"North Yorkshire"
+]
+]
+},
+{
+"title": "Llanfihangel y Creuddyn",
+"name": "Llanfihangel y Creuddyn",
+"county": "Ceredigion",
+"nation": "Wales",
+"doubly": true,
+"lat": 52.369939,
+"lon": -3.961772,
+"parishes": [
+[
+"Trawsgoed",
+"W04000399",
+"Ceredigion"
+],
+[
+"Trawsgoed",
+"W04000399",
+"Ceredigion"
+],
+[
+"Trawsgoed",
+"W04000399",
+"Ceredigion"
+]
+]
+},
+{
+"title": "Colwinston",
+"name": "Colwinston/''Tregolwyn''",
+"county": "Glamorgan",
+"nation": "Wales",
+"doubly": false,
+"lat": 51.46853,
+"lon": -3.52599,
+"parishes": [
+[
+"Colwinston",
+"W04000651",
+"Vale of Glamorgan"
+],
+[
+"Colwinston",
+"W04000651",
+"Vale of Glamorgan"
+],
+[
+"Colwinston",
+"W04000651",
+"Vale of Glamorgan"
+]
+]
+},
+{
+"title": "Herbrandston",
+"name": "Herbrandston",
+"county": "Pembrokeshire",
+"nation": "Wales",
+"doubly": true,
+"lat": 51.726443,
+"lon": -5.085726,
+"parishes": [
+[
+"Herbrandston",
+"W04000431",
+"Pembrokeshire"
+],
+[
+"Herbrandston",
+"W04000431",
+"Pembrokeshire"
+],
+[
+"Herbrandston",
+"W04000431",
+"Pembrokeshire"
+]
+]
+}
+]
