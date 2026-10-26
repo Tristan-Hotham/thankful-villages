@@ -24,7 +24,7 @@ A Thankful Village is a parish whose servicemen all came home from the First Wor
 ## Method
 
 1. **List:** the 55 villages (52 in England, 3 in Wales) and their "doubly thankful" flag come from the Wikipedia article "Thankful Villages" (accessed 26 October 2026). Coordinates come from each village's article.
-2. **Parish:** each village is matched to the civil parish of its nearest postcodes (postcodes.io). Eleven villages are now part of a differently named, larger parish, and they are left out of the size comparison.
+2. **Parish:** each village is matched to the civil parish of its nearest postcodes (postcodes.io). Thirteen villages are now part of a differently named, larger parish, and they are left out of the size comparison.
 3. **Population:** 2011 Census KS101EW usual residents by parish, from Nomis. Parishes the Census did not publish separately are treated as "under 100".
 4. **Model:** P(thankful) = 0.88<sup>s·N</sup>, where N is the parish population and s the share who served.
 5. **Served counts:** from the village articles. Upper Slaughter 25 (24 men and one woman), Colwinston 23, Nether Kellet 21, Harley 20, Stretton en le Field 11.
