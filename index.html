@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thankful Villages: Luck or Size?</title>
+<meta name="description" content="Every man who served came home to about 55 English and Welsh parishes after the First World War. Was it luck, or were they just small?">
+<meta property="og:title" content="Thankful Villages: luck or size?">
+<meta property="og:description" content="Small parishes are ten times likelier to be Thankful Villages. But chance alone predicts hundreds more than we know of.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@400;600&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+/* Portland stone and bronze: the two materials of almost every village war memorial. */
+:root{
+  --bg:#f3f1ec; --ink:#23221f; --muted:#5f5c55; --rule:#d7d3ca; --panel:#e8e5de;
+  --bronze:#8a5a24; --verd:#3d7a6c; --model:#a39e93; --link:#2a5d80;
+  --serif:"Libre Caslon Text",Georgia,serif; --sans:"Source Sans 3","Helvetica Neue",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#181816;--ink:#e8e6e0;--muted:#a9a59c;--rule:#38362f;--panel:#22211d;--bronze:#d6a25f;--verd:#7cc0ae;--model:#6f6b62;--link:#8fc1e3;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#181816;--ink:#e8e6e0;--muted:#a9a59c;--rule:#38362f;--panel:#22211d;--bronze:#d6a25f;--verd:#7cc0ae;--model:#6f6b62;--link:#8fc1e3;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 18px/1.68 var(--serif);padding:0 16px}
+main{max-width:1120px;margin:0 auto;padding:48px 0 72px}
+.col{max-width:670px;margin:0 auto}
+.kicker{font:600 13px/1 var(--sans);letter-spacing:.18em;text-transform:uppercase;color:var(--bronze);margin:0 0 16px}
+h1{font:700 clamp(40px,7vw,80px)/1.02 var(--serif);margin:0 0 20px;text-wrap:balance}
+.dek{font-size:21px;line-height:1.5;color:var(--muted);margin:0 0 20px;font-style:italic}
+.byline{font:400 14px/1.5 var(--sans);color:var(--muted);border-top:1px solid var(--rule);padding-top:10px}
+h2{font:700 27px/1.2 var(--serif);margin:52px 0 12px;text-wrap:balance}
+p{margin:0 0 16px}
+a{color:var(--link)}
+:focus-visible{outline:3px solid var(--bronze);outline-offset:2px}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:28px 0 8px;font-family:var(--sans)}
+.fact{border:1px solid var(--rule);background:var(--panel);padding:14px 14px 12px;text-align:center}
+.fact b{display:block;font:700 34px/1.05 var(--serif);color:var(--bronze);font-variant-numeric:tabular-nums}
+.fact span{display:block;margin-top:6px;font-size:14px;line-height:1.4;color:var(--muted)}
+@media (max-width:640px){.facts{grid-template-columns:1fr}body{font-size:17px}}
+.fig{margin:22px auto;font-family:var(--sans)}
+.fig svg{display:block;width:100%;height:auto;overflow:visible}
+.fig .cap{font-size:14px;color:var(--muted);line-height:1.45;margin-top:6px}
+.fig text{font:400 12px var(--sans);fill:var(--muted)}
+.fig .lab{fill:var(--ink);font-weight:600}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font:400 14px var(--sans);color:var(--muted);margin-top:6px}
+.legend i{display:inline-block;width:12px;height:12px;margin-right:6px;vertical-align:-1px}
+.atlas{display:grid;grid-template-columns:minmax(0,1fr) 300px;margin:22px 0 8px;border:1px solid var(--rule);background:var(--panel)}
+#map{height:min(76vh,680px);min-height:440px}
+.side{padding:16px;border-left:1px solid var(--rule);font:400 15px/1.5 var(--sans);max-height:min(76vh,680px);overflow:auto}
+.side h3{font:700 19px/1.2 var(--serif);margin:0 0 8px}
+.side ol{padding-left:0;list-style:none;margin:0}
+.side li{padding:5px 0;border-bottom:1px solid var(--rule);display:flex;justify-content:space-between;gap:8px;cursor:pointer}
+.side li:hover{color:var(--bronze)}
+.side li small{color:var(--muted);white-space:nowrap}
+@media (max-width:880px){.atlas{grid-template-columns:1fr}#map{height:60vh;min-height:360px}.side{border-left:0;border-top:1px solid var(--rule);max-height:360px}}
+.leaflet-container{font:400 13px var(--sans);background:var(--panel)}
+.note{font:400 14px/1.5 var(--sans);color:var(--muted)}
+.method li{margin-bottom:8px}
+footer{font:400 14px/1.6 var(--sans);color:var(--muted);border-top:1px solid var(--rule);margin-top:48px;padding-top:16px}
+</style>
+</head>
+<body>
+<main>
+<div class="col">
+<p class="kicker">1914–1918</p>
+<h1>Thankful Villages: luck or size?</h1>
+<p class="dek">About fifty-five parishes in England and Wales sent men to the First World War and got every one of them back. Were they lucky, or just small?</p>
+<p class="byline">Tristan Hotham · Researcher of campaigns and platforms · 2026</p>
+<div class="facts" id="facts"></div>
+
+<h2>One in eight</h2>
+<p>Arthur Mee coined "Thankful Village" in the 1930s for a place that lost no one in the Great War. A 2013 update by researchers identified 52 civil parishes. The list kept on Wikipedia, which I use here, now has 55, three of them in Wales. No Thankful Village has yet been found in Scotland or Ireland. The list also marks 18 villages as "doubly thankful", having lost no one in the Second World War either, though not all of those are verified.</p>
+<p>Roughly one in eight men who served from the United Kingdom died. If each man's fate were an independent coin toss weighted at 12%, the chance of everyone coming home falls fast with every extra man. Five of the villages record how many served. For each of them, getting everyone back was something between a 1-in-4 and a 1-in-25 shot.</p>
+</div>
+
+<div class="col fig">
+  <svg id="curve" viewBox="0 0 670 300" role="img" aria-label="Chance that all men return, by number who served"></svg>
+  <p class="cap">The chance that every man comes home if each faces an independent 12% risk of death. Dots mark the five Thankful Villages whose memorials or histories give the number who served.</p>
+</div>
+
+<div class="col">
+<h2>Small helps a lot</h2>
+<p>Size is most of the story. I matched each Thankful Village to its modern civil parish and its 2011 Census population. Parishes under 500 people today are about nine times likelier to be on the list than parishes of 1,000 or more. The few larger ones, such as East Wittering, Flixborough and Stoke Hammond, have mostly grown since 1918.</p>
+</div>
+
+<div class="col fig">
+  <svg id="bands" viewBox="0 0 670 280" role="img" aria-label="Thankful Villages per 1,000 parishes, by 2011 population"></svg>
+  <div class="legend"><span><i style="background:var(--bronze)"></i>Known Thankful Villages per 1,000 parishes</span></div>
+  <p class="cap">Parishes by 2011 Census population (England and Wales, 11,358 parishes). "Under 100" are parishes the Census was too small to publish separately. Eleven Thankful Villages have since merged into larger parishes and are left out of this chart.</p>
+</div>
+
+<div class="col">
+<h2>But chance predicts far more</h2>
+<p>Here is the puzzle. Run the coin-toss model over every small parish in England and Wales and it predicts hundreds of Thankful Villages, not 55. With between 6 and 13 men serving for every 100 people today, the expected total runs from about <span id="lo"></span> to <span id="hi"></span>. Most of them would be in hamlets of a few hundred people or fewer.</p>
+<p>Some of the gap is my proxy. Modern parish populations are not 1911 ones. Still, no reasonable correction gets the model down to 55. Two other explanations fit better.</p>
+<p>First, a civil parish is not a community. Many tiny civil parishes were townships of a larger church parish, and their men's names went on that parish's memorial. A hamlet that lost no one is invisible on a memorial shared with places that did.</p>
+<p>Second, thankfulness has to be proved. A parish joins the list only when researchers can show who served and that all came back. A memorial with names on it is evidence. The absence of one is not.</p>
+<p>So the answer to "luck or size?" is both, and something more. Being small made it possible. Luck made it happen. And record-keeping decided which villages we remember as thankful. There are very likely many more.</p>
+</div>
+
+<div class="atlas">
+  <div id="map" aria-label="Map of Thankful Villages"></div>
+  <aside class="side"><h3>The villages</h3><p class="note" style="margin-top:0"><span style="color:var(--verd)">●</span> doubly thankful &nbsp; <span style="color:var(--bronze)">●</span> First World War only</p><ol id="list"></ol></aside>
+</div>
+
+<div class="col">
+<h2>Method</h2>
+<ol class="method">
+<li>The list of 55 villages (52 in England, 3 in Wales) and their "doubly thankful" status come from Wikipedia's Thankful Villages article, which follows the research of Norman Edwards and Tom Morgan. Coordinates come from each village's Wikipedia article.</li>
+<li>Each village was placed in its modern civil parish by its nearest postcodes (postcodes.io). Where the modern parish has a different name, the village has been merged into a larger parish, and I left it out of the size comparison.</li>
+<li>Populations are 2011 Census usual residents by parish (KS101EW, via Nomis). This is the latest Census published for parishes, but it is only a proxy for 1911.</li>
+<li>The luck model gives each serving man a 12% chance of death. A parish of <i>N</i> people sends <i>s·N</i> men, so it is thankful with probability 0.88<sup>s·N</sup>. I tried <i>s</i> from 0.06 to 0.13, which brackets the served-to-resident ratios of the five villages with known counts.</li>
+<li>The five served counts come from the village articles: Upper Slaughter (24 men and one woman), Colwinston (23), Nether Kellet (21), Harley (20) and Stretton en le Field (11).</li>
+</ol>
+</div>
+
+<div class="col">
+<footer>
+<p><b>Data and code:</b> <a href="https://github.com/Tristan-Hotham/thankful-villages">github.com/Tristan-Hotham/thankful-villages</a> · archived at <a href="https://doi.org/10.5281/zenodo.23676168">doi:10.5281/zenodo.23676168</a></p>
+<p><b>Sources:</b> Wikipedia, "Thankful Villages" and the individual village articles (CC BY-SA 4.0). Census 2011 KS101EW parish populations, Office for National Statistics via Nomis, Open Government Licence v3. Postcode lookups from postcodes.io (ONS Postcode Directory, OGL). Base map © Esri.</p>
+<p>AI use: written with drafting, data and coding help from Claude (Anthropic).</p>
+<p>Tristan Hotham, independent researcher, 2026.</p>
+</footer>
+</div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const NS = 'http://www.w3.org/2000/svg';
+fetch('data/thankful.json').then(r=>r.json()).then(D => {
+  const V = D.villages, known = V.filter(v => v.same_parish), small = known.filter(v => v.nodata2011 || v.pop2011 < 500);
+  const B = Object.fromEntries(D.bands.map(b => [b.band, b]));
+  const r = b => 1000 * b.thankful / b.parishes;
+  const rs = (B['under 100'].thankful+B['100–199'].thankful+B['200–499'].thankful)*1000/(B['under 100'].parishes+B['100–199'].parishes+B['200–499'].parishes);
+  document.getElementById('facts').innerHTML = [
+    [V.length, `villages on the list, ${V.filter(v=>v.doubly).length} of them "doubly thankful"`],
+    [small.length+' of '+known.length, 'matched parishes have fewer than 500 people today'],
+    [(rs / r(B['1,000+'])).toFixed(0)+'×', 'likelier to be thankful if under 500 people than if 1,000 or more']
+  ].map(([n,t]) => `<div class="fact"><b>${n}</b><span>${t}</span></div>`).join('');
+  document.getElementById('lo').textContent = Number(D.expected['0.13']).toLocaleString('en-GB');
+  document.getElementById('hi').textContent = Number(D.expected['0.06']).toLocaleString('en-GB');
+
+  // curve
+  const s = document.getElementById('curve'), W=670, H=300, m={l:44,r:16,t:14,b:36};
+  const X = n => m.l + n/60*(W-m.l-m.r), Y = p => m.t + (1-p)*(H-m.t-m.b);
+  let h = '';
+  for (const p of [0,.25,.5,.75,1]) h += `<line x1="${m.l}" x2="${W-m.r}" y1="${Y(p)}" y2="${Y(p)}" stroke="var(--rule)"/><text x="${m.l-8}" y="${Y(p)+4}" text-anchor="end">${p*100}%</text>`;
+  for (const n of [0,10,20,30,40,50,60]) h += `<text x="${X(n)}" y="${H-m.b+18}" text-anchor="middle">${n}</text>`;
+  h += `<text x="${(W+m.l)/2}" y="${H-2}" text-anchor="middle">men who served</text>`;
+  const pts = Array.from({length:61},(_,n)=>`${X(n)},${Y(Math.pow(1-D.d,n))}`).join(' ');
+  h += `<polyline points="${pts}" fill="none" stroke="var(--model)" stroke-width="3"/>`;
+  D.served.slice().sort((a,b)=>a[1]-b[1]).forEach(([name,n,p],i) => { const ly = 70 + i*26, lx = X(31); h += `<line x1="${X(n)}" y1="${Y(p)}" x2="${lx-4}" y2="${ly-4}" stroke="var(--muted)" stroke-width=".8"/><circle cx="${X(n)}" cy="${Y(p)}" r="5.5" fill="var(--bronze)" stroke="var(--bg)" stroke-width="2"/><text class="lab" x="${lx}" y="${ly}">${name}</text><text x="${lx+150}" y="${ly}">${n} served · ${Math.round(p*100)}% chance</text>`; });
+  s.innerHTML = h;
+
+  // bands
+  const b = document.getElementById('bands'), labs = D.bands.map(x=>x.band), mx = 10, bw=(W-m.l-m.r)/labs.length, H2=280, Yb = v => m.t + (1-v/mx)*(H2-m.t-m.b);
+  let g = '';
+  for (const v of [0,2,4,6,8,10]) g += `<line x1="${m.l}" x2="${W-m.r}" y1="${Yb(v)}" y2="${Yb(v)}" stroke="var(--rule)"/><text x="${m.l-8}" y="${Yb(v)+4}" text-anchor="end">${v}</text>`;
+  D.bands.forEach((x,i) => { const v=r(x), cx=m.l+bw*i+bw/2; g += `<rect x="${cx-bw*.3}" y="${Yb(v)}" width="${bw*.6}" height="${Yb(0)-Yb(v)}" fill="var(--bronze)"/><text class="lab" x="${cx}" y="${Yb(v)-6}" text-anchor="middle">${v.toFixed(1)}</text><text x="${cx}" y="${H2-m.b+18}" text-anchor="middle">${x.band}</text><text x="${cx}" y="${H2-m.b+32}" text-anchor="middle">${x.thankful} of ${x.parishes.toLocaleString('en-GB')}</text>`; });
+  b.setAttribute('viewBox', `0 0 ${W} ${H2+10}`); b.innerHTML = g;
+
+  // map + list
+  const map = L.map('map', {zoomSnap:.25, minZoom:5, maxZoom:15, scrollWheelZoom:false}).fitBounds([[50.2,-5.4],[55.3,1.8]]);
+  map.on('focus', () => map.scrollWheelZoom.enable()); map.attributionControl.setPrefix(false);
+  const dark = matchMedia('(prefers-color-scheme: dark)').matches, ESRI='https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/';
+  L.tileLayer(ESRI + (dark?'World_Dark_Gray_Base':'World_Light_Gray_Base') + '/MapServer/tile/{z}/{y}/{x}', {maxNativeZoom:16, attribution:'Base map © Esri, HERE, Garmin, © OpenStreetMap contributors'}).addTo(map);
+  L.tileLayer(ESRI + (dark?'World_Dark_Gray_Reference':'World_Light_Gray_Reference') + '/MapServer/tile/{z}/{y}/{x}', {maxNativeZoom:16}).addTo(map);
+  const pop = v => !v.same_parish ? `now part of ${v.parish}` : v.nodata2011 ? 'parish too small for separate 2011 figures' : `parish population ${Number(v.pop2011).toLocaleString('en-GB')} (2011)`;
+  const mk = V.map(v => L.circleMarker([v.lat,v.lon], {radius:7, color:css('--bg'), weight:1.5, fillColor:css(v.doubly?'--verd':'--bronze'), fillOpacity:1})
+     .bindPopup(`<b>${v.village}</b>, ${v.county}<br>${v.doubly?'Doubly thankful (both world wars)':'Thankful (First World War)'}<br>${pop(v)}`).addTo(map));
+  const order = V.map((v,i)=>[v,i]).sort((a,b)=>a[0].village.localeCompare(b[0].village));
+  document.getElementById('list').innerHTML = order.map(([v,i]) => `<li data-i="${i}" tabindex="0"><span style="color:var(${v.doubly?'--verd':'--bronze'})">●</span> <span style="flex:1">${v.village}</span><small>${v.county}</small></li>`).join('');
+  document.querySelectorAll('#list li').forEach(li => { const go = () => { const v=V[li.dataset.i]; map.setView([v.lat,v.lon], 11); mk[li.dataset.i].openPopup(); }; li.onclick = go; li.onkeydown = e => { if (e.key==='Enter') go(); }; });
+});
+</script>
+</body>
+</html>
